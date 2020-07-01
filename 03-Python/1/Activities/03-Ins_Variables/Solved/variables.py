@@ -1,5 +1,5 @@
 # Creates a variable with a string "Frankfurter"
-title = "Frankfurter"
+TITLE = "Frankfurter"
 
 # Creates a variable with an integer 80
 years = 80
@@ -8,7 +8,7 @@ years = 80
 expert_status = True
 
 # Prints a statement adding the variable
-print("Nick is a professional " + title)
+print("Nick is a professional " + TITLE)
 
 # Convert the integer years into a string and prints
 print("He has been coding for " + str(years) + " years")
